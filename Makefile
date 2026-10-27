@@ -6,7 +6,7 @@ JPATCH_MAIN=src/jpatch.cpp
 SOURCES=$(patsubst src/%, %, $(wildcard src/J*.cpp ))
 OBJECTS=$(addprefix bin/, $(addsuffix .o, $(basename ${SOURCES})))
 
-SHELL := /bin/bash
+SHELL = bash 
 DIFF_EXE=jdiff
 PTCH_EXE=jptch
 
